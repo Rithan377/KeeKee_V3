@@ -1,0 +1,18 @@
+# Core Dependencies
+torch
+numpy
+
+# Tokenization
+tiktoken
+
+# RAG (Retrieval-Augmented Generation)
+sentence-transformers
+faiss-cpu
+
+# Tools & MCP (Gmail Integration)
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+#to download dataset
+datasets
