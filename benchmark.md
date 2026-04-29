@@ -57,7 +57,7 @@
 5. **Architectural Parity:** Incorporates modern features (RoPE, GQA, GeGLU) similar to Gemma/Llama 3 architectures.
 
 ### Top 5 Weaknesses
-1. **Instruction Following:** As a 130M model, it struggles with complex formatting constraints (e.g., JSON, word counts).
+1. **Instruction Following:** As a 123M model, it struggles with complex formatting constraints (e.g., JSON, word counts).
 2. **World Knowledge:** Due to size, it hallucinates facts outside of its core conversational and emotional support domain.
 3. **Catastrophic Forgetting:** Overwriting base behavior requires careful low-LR incremental training to prevent forgetting.
 4. **Language Restriction:** Struggles slightly with mixed languages (e.g., Tamil+English) unless specifically fine-tuned for it.
@@ -68,4 +68,4 @@
 - **Complex Logic:** Fails logic puzzles or mathematical reasoning.
 
 ### Final Verdict
-**Yes, KeeKee is highly superior for persona-aligned SODA conversation tasks.** When compared to models of similar parameter counts (GPT-2, DialoGPT), KeeKee is significantly more aligned, stable, and computationally efficient for real-time persona-based chat applications.
+**Yes, KeeKee is highly superior for persona-aligned  conversation tasks.** When compared to models of similar parameter counts (GPT-2, DialoGPT), KeeKee is significantly more aligned, stable, and computationally efficient for real-time persona-based chat applications.
